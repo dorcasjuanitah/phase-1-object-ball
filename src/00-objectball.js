@@ -118,3 +118,8 @@ function gameObject( game ) {
 }
 return gameObject(teams);
 }
+function numPointsScored(){
+    return gameObject()['home']['players']['Alan Anderson']['points']
+}
+console.log(numPointsScored())
+
